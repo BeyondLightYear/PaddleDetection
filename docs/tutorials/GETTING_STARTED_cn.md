@@ -68,9 +68,9 @@ runtime.yml 主要说明了公共的运行参数，比如说是否使用GPU、�
 
 optimizer_40e.yml 主要说明了学习率和优化器的配置。
 
-ppyolov2_r50vd_dcn.yml 主要说明模型、和主干网络的情况。
+yolov3_mobilenet_v1.yml 主要说明模型、和主干网络的情况。
 
-ppyolov2_reader.yml 主要说明数据读取器配置，如batch size，并发加载子进程数等，同时包含读取后预处理操作，如resize、数据增强等等
+yolov3_reader.yml 主要说明数据读取器配置，如batch size，并发加载子进程数等，同时包含读取后预处理操作，如resize、数据增强等等
 
 
 ```
